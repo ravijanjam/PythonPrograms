@@ -16,10 +16,12 @@ print rnList
 for i in range(100):
 	print rnList[i], "occurs ", rnList.count(i), "times"
 
+def plotIt(rnList):
+	plt.plot(rnList)
+	plt.ylabel('no of times per random number')
+	plt.show()
 
-plt.plot(rnList)
-plt.ylabel('no of times per random number')
-plt.show()
+plotIt(rnList)
 
 '''
 Purpose :
