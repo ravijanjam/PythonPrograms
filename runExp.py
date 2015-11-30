@@ -5,6 +5,7 @@ from random import randint
 # Put into bins
 arr1 = [] 
 arr2 = [] 
+
 nExp = 100
 nType = 3
 seq = []

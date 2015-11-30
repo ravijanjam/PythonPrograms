@@ -22,6 +22,7 @@ def plotIt(rnList):
 	plt.show()
 
 plotIt(rnList)
+rnList.sort()
 
 '''
 Purpose :
